@@ -32,7 +32,7 @@ The system automatically detects files uploaded to an S3 input bucket, invokes a
 
 The project follows an event-driven architecture where Amazon S3 automatically invokes AWS Lambda when a new file is uploaded.
 
-View the project architecture in [Architecture Diagram](architecture/AWS Serverless File Processing Architecture.png).
+View the project architecture in [Architecture Diagram](architecture/aws-serverless-file-processing-architecture.png).
 
 ```mermaid
 flowchart TD
