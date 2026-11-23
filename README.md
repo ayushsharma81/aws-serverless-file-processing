@@ -2,6 +2,8 @@
 
 An event-driven serverless file processing system built using **Amazon S3, AWS Lambda (Python), IAM, and Amazon CloudWatch**.
 
+View the project architecture in ![Architecture Diagram](screenshots/aws-serverless-file-processing-architecture.png)
+
 The system automatically detects files uploaded to an S3 input bucket, invokes a Lambda function, extracts file metadata, generates a JSON file, and stores the generated metadata in a separate S3 output bucket.
 
 ## Project Overview
@@ -29,8 +31,6 @@ The system automatically detects files uploaded to an S3 input bucket, invokes a
 - Monitor Lambda execution using CloudWatch Logs.
 
 ## Architecture Diagram
-
-View the project architecture in ![Architecture Diagram](screenshots/aws-serverless-file-processing-architecture.png)
 
 The project follows an event-driven architecture where Amazon S3 automatically invokes AWS Lambda when a new file is uploaded.
 
