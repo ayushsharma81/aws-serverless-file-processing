@@ -186,6 +186,10 @@ The following screenshots document the actual AWS implementation.
 
 ### 1. S3 Bucket Configuration
 
+**S3 Bucket**
+
+![S3 Bucket](screenshots/00-s3-input-bucket.png)
+
 **Input S3 Bucket**
 
 Stores files uploaded for processing.
@@ -237,6 +241,10 @@ The input bucket is connected to the Lambda function through an S3 Object Create
 **CloudWatch Logs**
 
 ![CloudWatch Logs](screenshots/10-cloudwatch-logs.png)
+
+**Uploaded Output**
+
+![Output File Uploaded](screenshots/11-file-uploaded-input.png)
 
 ### 6. Generated JSON Output
 
