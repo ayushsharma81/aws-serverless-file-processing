@@ -32,6 +32,8 @@ The system automatically detects files uploaded to an S3 input bucket, invokes a
 
 The project follows an event-driven architecture where Amazon S3 automatically invokes AWS Lambda when a new file is uploaded.
 
+View the project architecture in [Architecture Diagram](architecture/aws-serverless-architecture.png).
+
 ```mermaid
 flowchart TD
     A["User uploads a file"] --> B["Amazon S3 Input Bucket"]
@@ -240,7 +242,7 @@ The input bucket is connected to the Lambda function through an S3 Object Create
 
 The Lambda function successfully generated the following metadata:
 
-![Generated JSON Output](screenshots/11-generated-json-output.png)
+![Generated JSON Output](screenshots/12-generated-json-output.png)
 
 ## Testing and Results
 
