@@ -188,7 +188,7 @@ The following screenshots document the actual AWS implementation.
 
 **S3 Bucket**
 
-![S3 Bucket](screenshots/00-s3-input-bucket.png)
+![S3 Bucket](screenshots/00-s3-bucket.png)
 
 **Input S3 Bucket**
 
@@ -244,7 +244,7 @@ The input bucket is connected to the Lambda function through an S3 Object Create
 
 **Uploaded Output**
 
-![Output File Uploaded](screenshots/11-file-uploaded-input.png)
+![Output File Uploaded](screenshots/11-file-uploaded-output.png)
 
 ### 6. Generated JSON Output
 
